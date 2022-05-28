@@ -80,6 +80,7 @@ pub use self::object::{
     AsObject, Py, PyExact, PyObject, PyObjectRef, PyPayload, PyRef, PyRefExact, PyResult, PyWeakRef,
 };
 pub use self::vm::{Context, Interpreter, Settings, VirtualMachine};
+pub use bytesinner::ByteInnerFindOptions;
 
 pub use rustpython_bytecode as bytecode;
 pub use rustpython_common as common;
